@@ -10,7 +10,7 @@ const Login = () => {
 
   const handleLogin = () => {
     axios
-      .post("https://librarymanagementsysytem.onrender.com/library/login", {
+      .post("https://lms-backend-buuj.onrender.com/library/login", {
         email,
         password,
       })

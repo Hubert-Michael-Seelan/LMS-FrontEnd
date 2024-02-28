@@ -11,7 +11,7 @@ const SignUp = () => {
 
   const handleCreate = () => {
     axios
-      .post("https://librarymanagementsysytem.onrender.com/library/create", {
+      .post("https://lms-backend-buuj.onrender.com/library/create", {
         name,
         email,
         password,
