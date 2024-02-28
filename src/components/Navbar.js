@@ -14,7 +14,7 @@ const Navbar = () => {
             class="nav-link active"
             style={{ color: "white", textDecoration: "inherit" }}
             aria-current="page"
-            to="/"
+            to="/home"
           >
             Home
           </NavLink>
@@ -53,6 +53,13 @@ const Navbar = () => {
             to="/AuthorPage"
           >
             Authors Collection
+          </NavLink>
+          <NavLink
+            class="nav-link"
+            style={{ color: "white", textDecoration: "inherit", margin: "20px" }}
+            to="/"
+          >
+            Log Out
           </NavLink>
         </li>
       </ul>

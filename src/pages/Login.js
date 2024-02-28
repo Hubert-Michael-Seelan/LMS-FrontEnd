@@ -29,8 +29,8 @@ const Login = () => {
     <div className="main bg-dark">
       <div className="nav-bar-2">
         <div className="row py-3">
-          <div className="col-6">
-            <h3 className="nav-bar ps-3 fs-1">Library Management</h3>
+          <div className="col-2">
+            <h3 className="nav-bar ps-3 fs-1">Library Management System</h3>
           </div>
         </div>
       </div>
@@ -55,9 +55,6 @@ const Login = () => {
         <button className="btn btn-success mt-5 ms-5" onClick={handleLogin}>
           Login
         </button>
-        <Link to="/forgotPassword">
-          <button className="btn btn-danger mt-5 ms-5">Forget Password</button>
-        </Link>
         <Link to="/signup" className="d-block mt-4 ms-5 signup mb-4">
           SignUp or Create a User
         </Link>
