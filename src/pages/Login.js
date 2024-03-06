@@ -17,8 +17,8 @@ const Login = () => {
       .then((res) => {
         if (res.data.status) {
           alert(res.data.message);
-          localStorage.setItem('token',res.data.data)
-          navigate('/home');
+          localStorage.setItem("token", res.data.data);
+          navigate("/home");
         } else {
           alert(res.data.message);
         }
@@ -33,8 +33,12 @@ const Login = () => {
             <h3 className="nav-bar ps-3 fs-1">Library Management System</h3>
           </div>
         </div>
+        <div>
+          <p>Demo Login:</p>
+          <p>Email id: hms@mail.com</p>
+          <p>Password: hms</p>
+        </div>
       </div>
-
       <div className="login ">
         <h3 className="mt-4 text-center">
           Login To Make your Function Great with US❤
